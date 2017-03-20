@@ -1,4 +1,12 @@
 {
-    "workbench.iconTheme": "material-icon-theme"
-    
+    "workbench.iconTheme": "material-icon-theme",
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ]
 }
