@@ -12,6 +12,8 @@ Depending on your platform, the user settings file is located here:
 
 ## Link Settings File
 
+**note** *Run the below commands in the default CMD on windows, its not recognized in powershell*
+
     $ mklink /H /J %APPDATA%\Code\User X:\Your\Sync\Dir
 
 example from work computer
